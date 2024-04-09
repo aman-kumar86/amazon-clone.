@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+/* .nav-logo{
+    height: 40px;
+    width: 100px;
+} */
+    
+
+.nav-logo{
+    background-image: url(amazon_logo.png);
+    height: 40px;
+    width: 100px;
+    background-size: cover;
+
+}
+.boder{
+    border: 2px solid transparent;
+}
+.boder:hover{
+    border: 2px solid white;
+}
+.location1{
+   color: #cccc; 
+   font-size: 0.9rem;
+   margin-left: 15px;
+}
+.location2{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.icon{
+    display: flex;
+    text-align: center;
+}
+#select{
+    height: 32px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+input{
+    margin: none;
+    height: 28px;
+    border-radius: 4px;
+    width: 400px;
+}
+#button{
+    height: 32px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: orange;
+}
+#language {
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+#Sign{
+     font-family: Arial, sans-serif;
+     font-size: 0.9rem;
+     margin-left: 10px;
+     padding-top: 4px;
+     color: #ffff;
+}
+
+#account{
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+
+}
+
+#Devolaciones{
+    font-family: Arial, sans-serif;
+     font-size: 0.9rem;
+     margin-left: 10px;
+     padding-top: 4px;
+     color: #ffff;
+}
+#y{
+    font-weight:bold;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.card{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.second-navbar{
+    height: 35px;
+    width: 100%;
+    background-color: #253535;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#all{
+    margin-left: 4px;
+
+}
+.offers{
+    display: flex;
+    margin-left: 10px;
+}
+#content{
+    margin-left: 20px;
+}
+
+.second-navbar-boder:hover{
+    border: 2px solid whitesmoke;
+}
+
+  /* main template area */
+
+
+.main-template{
+    height: 300px;
+    width: 100%;
+}
+
+
+.main-template{
+    background-image: url(amazon\ body\ img.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    
+ } 
+
+    /* card */
+
+.card-template{
+    height: 450px;
+    width: 100%;
+    background-color: #e4f0f3;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 450px;
+    width: 300px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+#box-img{
+    height: 380px;
+    width: 240px;
+    border-radius: 8px;
+    background-size: cover;
+    box-shadow: 3px 2px 4px 4px #154c79;
+}
+
+#box-img:hover{
+    height: 400px;
+    width: 250px;
+    border: 2px solid aqua;
+}
+
+.mans{
+    height: 350px;
+    border: 2px solid #d44db2;
+    background-image: url(men\ clouth.png);
+    background-size: cover;
+
+}
+
+#box-img{
+    background-size: cover;
+   background-size: 100%;
+}
+
+.women-card{
+    height: 420px;
+    width: 100%;
+    display: flex;
+    background-color:#5a9acf;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.bike-card{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    background-color:#5a9acf;
+}
